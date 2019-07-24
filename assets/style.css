@@ -225,7 +225,8 @@ body {
     }
 
 #logo {
-  margin-left:30%;
+  text-align: center;
+  width:100%;
 }
 
 nav {
