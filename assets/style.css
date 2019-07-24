@@ -3,7 +3,7 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777777;
-    background: url("../images/concrete_seamless.png");
+    background: url("https://www.toptal.com/designers/subtlepatterns/patterns/beige-tiles.png");
   }
   
   * {
@@ -219,15 +219,27 @@ body {
   /*media quieires*/
   
  /* iPhone */
- @media screen 
- and (max-width: 768px) 
- and (-webkit-min-device-pixel-ratio: 3)
- and (orientation: landscape) { 
+ @media screen and (max-width:640px) {
+    .body {
+      max-width:640px;
+    }
 
-}
+    nav {
+      margin-right:20%;
+    }
+      .wrapper {
+        /* Box-model */
+        width: 100%;
+        padding: 20px;
+      }
+      #contact-form {
+      width: 100%;
+  }
+
+  
 
 /* Tablet */
-@media only screen 
+@media screen 
   and (max-width: 768px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
