@@ -219,8 +219,8 @@ body {
   /*media quieires*/
   
  /* iPhone */
- @media only screen 
- and (max-device-width: 768px) 
+ @media screen 
+ and (max-width: 768px) 
  and (-webkit-min-device-pixel-ratio: 3)
  and (orientation: landscape) { 
 
@@ -228,13 +228,13 @@ body {
 
 /* Tablet */
 @media only screen 
-  and (min-device-width: 768px) 
+  and (max-width: 768px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
 
 }
-
+/*Desktop*/
 @media screen 
-  and (min-device-width: 960px) 
+  and (max-width: 960px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
 }
