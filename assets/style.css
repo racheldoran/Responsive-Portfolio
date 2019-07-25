@@ -221,8 +221,9 @@ body {
  /* iPhone */
  @media screen and (max-width:640px) {
     .body {
+      position:static;
       max-width:640px;
-      padding:30px;
+     
     }
 #logo {
   text-align: center;
@@ -233,13 +234,13 @@ body {
   padding-top:10px;
 }
 nav {
-margin-right:20%;  
-padding:10px;
+margin-right:25%;  
+
     }
 .auth-image {
 width:360px;
     }
-
+}
 /* Tablet */
 @media screen and (max-width: 768px) {
 } .body {
